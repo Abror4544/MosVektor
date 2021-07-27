@@ -1600,6 +1600,24 @@ footer .callme {
 }
 
 @media screen and (max-width: 991px) {
+
+  .header .soc {
+    margin-right: 0;
+  }
+
+  .header .connection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
   .header .mini_title img {
     margin-right: 15px;
   }
@@ -1675,22 +1693,6 @@ footer .callme {
     width: 200px;
   }
 
-  .header .connection {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-  }
-
-  .header .soc {
-    margin-right: 0;
-  }
 
   .header .call .tel {
     font-size: 16px;
